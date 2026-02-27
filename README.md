@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Kitty Nova Defense (Kitty新星防御)
 
-# Run and deploy your AI Studio app
+A classic missile command style tower defense game where you protect your cities from falling rockets.
 
-This contains everything you need to run your app locally.
+## Features
+- **Dynamic Starry Background**: Beautiful twinkling stars that create an immersive space atmosphere.
+- **Shield System**: Earn shields every 5 levels to protect your cities and turrets.
+- **Bilingual Support**: Toggle between English and Chinese.
+- **Responsive Design**: Works on both desktop and mobile devices.
 
-View your app in AI Studio: https://ai.studio/apps/820f5af2-d12f-47bc-a222-9ae2401e724b
+## Deployment to Vercel
 
-## Run Locally
+To deploy this game to Vercel via GitHub, follow these steps:
 
-**Prerequisites:**  Node.js
+1. **Create a GitHub Repository**:
+   - Go to [GitHub](https://github.com) and create a new repository named `kitty-nova-defense`.
+   - Push this code to your repository.
 
+2. **Connect to Vercel**:
+   - Go to [Vercel](https://vercel.com).
+   - Click **"Add New"** -> **"Project"**.
+   - Import your `kitty-nova-defense` repository.
+   - Vercel will automatically detect the Vite framework.
+   - Click **"Deploy"**.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. **Environment Variables**:
+   - If you use any Gemini API features in the future, make sure to add `GEMINI_API_KEY` to the Vercel project settings under **Environment Variables**.
+
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## License
+MIT
