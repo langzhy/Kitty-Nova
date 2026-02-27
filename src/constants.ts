@@ -9,8 +9,8 @@ export const POINTS_PER_ROCKET = 20;
 
 export const EXPLOSION_MAX_RADIUS = 35;
 export const EXPLOSION_GROWTH_SPEED = 1.5;
-export const MISSILE_SPEED = 5;
-export const ROCKET_BASE_SPEED = 0.5;
+export const MISSILE_SPEED = 12;
+export const ROCKET_BASE_SPEED = 0.8;
 
 export const COLORS = {
   BACKGROUND: '#0a0a0a',
